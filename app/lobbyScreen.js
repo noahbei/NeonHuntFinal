@@ -11,18 +11,18 @@ export default function App() {
       <StatusBar style="auto" />
       <ScrollView contentContainerStyle={styles.contentContainer}>
         <Room id={'2345'} currentPlayers={3}></Room>
-        <Room></Room>
-        <Room></Room>
-        <Room></Room>
-        <Room></Room>
-        <Room></Room>
-        <Room></Room>
-        <Room></Room>
-        <Room></Room>
-        <Room></Room>
-        <Room></Room>
-        <Room></Room>
-        <Room></Room>
+        <Room id={'2346'} currentPlayers={4}></Room>
+        <Room id={'2745'} currentPlayers={2}></Room>
+        <Room id={'2276'} currentPlayers={3}></Room>
+        <Room id={'2388'} currentPlayers={0}></Room>
+        <Room id={'2115'} currentPlayers={0}></Room>
+        <Room id={'7745'} currentPlayers={1}></Room>
+        <Room id={'2351'} currentPlayers={1}></Room>
+        <Room id={'2675'} currentPlayers={2}></Room>
+        <Room id={'6655'} currentPlayers={4}></Room>
+        <Room id={'2365'} currentPlayers={2}></Room>
+        <Room id={'4573'} currentPlayers={1}></Room>
+        <Room id={'9963'} currentPlayers={3}></Room>
       </ScrollView>
       <View style={styles.buttonContainer}>
         <Button title="Create Room" color="#f194ff" onPress={() => {}} />
