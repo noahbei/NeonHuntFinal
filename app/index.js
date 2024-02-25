@@ -5,7 +5,6 @@ import NeonButton from './components/NeonButton';
 import { useState } from 'react';
 import { ButtonGroup } from '@rneui/themed';
 import Title from './components/Title';
-import axios from 'axios';
 
 export default function App() {
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -16,15 +15,7 @@ export default function App() {
   };
 
   const handleButtonPress = () => {
-    console.log('http://localhost:3000/items/' + (selectedIndex ? "Outdoors": "Indoors"))
-    axios.get('http://localhost:3000/items/' + (selectedIndex ? "Outdoors": "Indoors"))
-  .then((response) => {
-    console.log(response.data);
-  })
-  .catch((error) => {
-    console.log("this", response)
-    console.error(error);
-  });
+    
   };
 
   return (

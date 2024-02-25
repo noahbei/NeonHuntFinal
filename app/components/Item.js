@@ -53,6 +53,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     maxWidth: '50%',
+    flexGrow: 1
   },
   circular: {
     display: 'flex',
